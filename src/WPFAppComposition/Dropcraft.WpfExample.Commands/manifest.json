@@ -1,0 +1,16 @@
+{
+    "extensions": [
+        {
+            "id": "clearCommand",
+            "extensibilityPointId": "editorCommand",
+            "class": "Dropcraft.WpfExample.Commands.ClearCommand, Dropcraft.WpfExample.Commands",
+            "configuration": {}
+        },
+        {
+            "id": "boldCommand",
+            "extensibilityPointId": "editorCommand",
+            "class": "Dropcraft.WpfExample.Commands.BoldCommand, Dropcraft.WpfExample.Commands",
+            "configuration": {}
+        }        
+    ]           
+}

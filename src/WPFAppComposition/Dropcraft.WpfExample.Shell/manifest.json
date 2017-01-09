@@ -1,0 +1,18 @@
+{
+    "extensibilityPoints": [
+        {
+            "id" : "workspace",
+            "activation": "normal",
+            "class": "Dropcraft.WpfExample.Shell.WorkspaceHandler, Dropcraft.WpfExample.Shell",
+            "configuration": {}
+        }
+    ],
+    "extensions": [
+        {
+            "id": "shell",
+            "extensibilityPointId": "bootstrapper",
+            "class": "Dropcraft.WpfExample.Shell.Bootstrapper, Dropcraft.WpfExample.Shell",
+            "configuration": {}
+        }
+    ]           
+}

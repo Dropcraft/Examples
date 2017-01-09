@@ -1,0 +1,18 @@
+{
+    "extensibilityPoints": [
+        {
+            "id" : "editorCommand",
+            "activation": "normal",
+            "class": "Dropcraft.WpfExample.Editor.CommandHandler, Dropcraft.WpfExample.Editor",
+            "configuration": {}
+        }
+    ],
+    "extensions": [
+        {
+            "id": "editorWorkspace",
+            "extensibilityPointId": "workspace",
+            "class": "Dropcraft.WpfExample.Editor.EditorWorkspace, Dropcraft.WpfExample.Editor",
+            "configuration": {}
+        }
+    ]           
+}

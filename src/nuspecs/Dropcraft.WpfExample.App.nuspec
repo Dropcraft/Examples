@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>Dropcraft.WpfExample.App</id>
+        <version>1.0.0</version>
+        <authors>Andrei Marukovich</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Dropcraft sample app: executable</description>
+        <dependencies>
+            <group targetFramework=".NETFramework4.6.1">
+                <dependency id="Dropcraft.Common" version="0.1.0" />
+                <dependency id="Dropcraft.Runtime" version="0.1.0" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\WPFAppComposition\Dropcraft.WpfExample.App\bin\Release\Dropcraft.WpfExample.App.exe" target="lib\net461\Dropcraft.WpfExample.App.exe" />
+    </files>
+</package>

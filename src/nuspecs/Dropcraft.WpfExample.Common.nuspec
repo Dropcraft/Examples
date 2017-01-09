@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>Dropcraft.WpfExample.Common</id>
+        <version>1.0.0</version>
+        <authors>Andrei Marukovich</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Dropcraft sample: common interfaces</description>
+        <dependencies>
+            <group targetFramework=".NETFramework4.6.1" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\WPFAppComposition\Dropcraft.WpfExample.Common\bin\Release\Dropcraft.WpfExample.Common.dll" target="lib\net461\Dropcraft.WpfExample.Common.dll" />
+    </files>
+</package>
